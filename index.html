@@ -21,7 +21,7 @@
     <meta name="description" content="你好，我是kwings，一名java程序员">
 <meta property="og:type" content="website">
 <meta property="og:title" content="kwings的blog">
-<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:url" content="https://kwings6.github.io/index.html">
 <meta property="og:site_name" content="kwings的blog">
 <meta property="og:description" content="你好，我是kwings，一名java程序员">
 <meta property="og:locale" content="zh_CN">
@@ -64,7 +64,7 @@
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
     Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"example.com","root":"/","version":"1.9.7","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml","include_content_in_search":true};
+    var CONFIG = {"hostname":"kwings6.github.io","root":"/","version":"1.9.7","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"left","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml","include_content_in_search":true};
 
     if (CONFIG.web_analytics.follow_dnt) {
       var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
@@ -227,18 +227,24 @@
   <div class="row mx-auto index-card">
     
     
-    <article class="col-12 col-md-12 mx-auto index-info">
+      <div class="col-12 col-md-4 m-auto index-img">
+        <a href="/2024/06/12/blog-deploy-problems/" target="_self">
+          <img src="/img/anime-street.jpg" srcset="/img/loading.gif" lazyload alt="hexo推送到github pages不执行部署的问题">
+        </a>
+      </div>
+    
+    <article class="col-12 col-md-8 mx-auto index-info">
       <h2 class="index-header">
         
         <a href="/2024/06/12/blog-deploy-problems/" target="_self">
-          hexo部署到github pages不执行部署的问题
+          hexo推送到github pages不执行部署的问题
         </a>
       </h2>
 
       
-      <a class="index-excerpt index-excerpt__noimg" href="/2024/06/12/blog-deploy-problems/" target="_self">
+      <a class="index-excerpt " href="/2024/06/12/blog-deploy-problems/" target="_self">
         <div>
-          这是我使用了hexo官网的一键部署到github pages之后发现没有自动部署的问题hexo官方的一键部署教程我的博客项目也是按照仓库名是github id加上github.io,https://kwings6.github.io/  然后我去查看了一下github pages的官方使用文档github pages官方的配置 我这里使用了第一种方法：以分支发布。
+          使用以分支发布的方法解决按照hexo官网一键部署后，推送到github仓库上后，但是没有执行action，导致博客访问不到的问题。
         </div>
       </a>
 

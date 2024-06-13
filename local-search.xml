@@ -4,11 +4,11 @@
   
   
   <entry>
-    <title>hexo部署到github pages不执行部署的问题</title>
+    <title>hexo推送到github pages不执行部署的问题</title>
     <link href="/2024/06/12/blog-deploy-problems/"/>
     <url>/2024/06/12/blog-deploy-problems/</url>
     
-    <content type="html"><![CDATA[<h2 id="这是我使用了hexo官网的一键部署到github-pages之后发现没有自动部署的问题"><a href="#这是我使用了hexo官网的一键部署到github-pages之后发现没有自动部署的问题" class="headerlink" title="这是我使用了hexo官网的一键部署到github pages之后发现没有自动部署的问题"></a>这是我使用了hexo官网的一键部署到github pages之后发现没有自动部署的问题</h2><p><a href="https://hexo.io/zh-cn/docs/one-command-deployment">hexo官方的一键部署教程</a><br>我的博客项目也是按照仓库名是github id加上github.io,<a href="https://kwings6.github.io/">https://kwings6.github.io/</a> </p><p>然后我去查看了一下github pages的官方使用文档<br><a href="https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site">github pages官方的配置</a></p><p>我这里使用了第一种方法：以分支发布。</p><p><img src="/github-pages-branch-deploy.png" alt="github-pages-branch-deploy"></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="这是我使用了hexo官网的一键部署到github-pages之后发现没有自动部署的问题"><a href="#这是我使用了hexo官网的一键部署到github-pages之后发现没有自动部署的问题" class="headerlink" title="这是我使用了hexo官网的一键部署到github pages之后发现没有自动部署的问题"></a>这是我使用了hexo官网的一键部署到github pages之后发现没有自动部署的问题</h2><p>问题描述：一下大概就是能上传到自己的github仓库上，但是却不能访问到自己blog页面。</p><p>我的博客项目也是按照仓库名是github id加上github.io,<a href="https://kwings6.github.io/">https://kwings6.github.io/</a></p><p><a href="https://hexo.io/zh-cn/docs/one-command-deployment">hexo官方的一键部署教程</a></p><p>然后我去查看了一下github pages的官方使用文档<br><a href="https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site">github pages官方的配置</a></p><p>我这里使用了第一种方法：以分支发布。</p><p><img src="/../img/github-pages-branch-deploy.png" alt="github-pages-branch-deploy"></p>]]></content>
     
     
     
